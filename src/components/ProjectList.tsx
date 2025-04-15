@@ -8,7 +8,7 @@ const projects = [
     title: "Doctor Appointment System",
     description: "Built a comprehensive appointment system for doctors using Django and AWS services. The system enables users to book appointments, doctors to manage them, and includes prescription uploads. Implemented with AWS DynamoDB for storage, SNS for notifications, and CloudWatch for monitoring. Utilizes AWS SDK (Boto3) for programmatic service integration and is hosted on Elastic Beanstalk with automated GitHub Actions deployment.",
     technologies: ["Django", "AWS DynamoDB", "AWS SNS", "AWS CloudWatch", "Boto3", "GitHub Actions", "Elastic Beanstalk"],
-    repoLink: "https://github.com/Asinsayedali/Appointment",
+    repoLink: "#",
   },
   {
     title: "AI Law Book",
