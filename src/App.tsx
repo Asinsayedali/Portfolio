@@ -9,9 +9,9 @@ import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 const queryClient = new QueryClient();
-
+<SpeedInsights/>
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
