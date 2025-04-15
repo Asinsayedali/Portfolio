@@ -1,0 +1,3 @@
+
+// This would be the binary data of the image, but since we can't actually write binary data here,
+// we'll use the custom SunMoonIcon component we created above instead.
