@@ -49,7 +49,7 @@ const ProjectList = () => {
               {project.technologies.map((tech) => (
                 <span
                   key={tech}
-                  className="px-2 py-1 text-sm bg-accent/10 text-foreground rounded transition-colors duration-300 hover:bg-accent/20"
+                  className="px-2 py-1 text-sm bg-accent/10 text-foreground rounded transition-colors duration-300 hover:bg-accent/70"
                 >
                   {tech}
                 </span>
@@ -57,7 +57,7 @@ const ProjectList = () => {
             </div>
             <div className="flex gap-3 mt-4">
               {project.repoLink && (
-                <Button variant="outline" size="sm" asChild className="transition-colors duration-300 hover:bg-accent/10">
+                <Button variant="outline" size="sm" asChild className="transition-colors duration-300 hover:bg-accent/70">
                   <a href={project.repoLink} target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2" />
                     Repository
@@ -65,7 +65,7 @@ const ProjectList = () => {
                 </Button>
               )}
               {project.demoLink && (
-                <Button variant="outline" size="sm" asChild className="transition-colors duration-300 hover:bg-accent/10">
+                <Button variant="outline" size="sm" asChild className="transition-colors duration-300 hover:bg-accent/70">
                   <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
                     <LinkIcon className="mr-2" />
                     Live Demo
