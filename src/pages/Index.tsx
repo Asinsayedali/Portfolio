@@ -7,6 +7,7 @@ import ProjectList from "@/components/ProjectList";
 import { Mail, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const Index = () => {
   const experienceRef = useScrollReveal({ direction: 'left' });
