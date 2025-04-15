@@ -11,27 +11,34 @@ const projects = [
     repoLink: "https://github.com/Asinsayedali/Appointment",
   },
   {
+    title: "AI Law Book",
+    description: "Created an AI-powered law book using LangChain and Gemini 1.5 pro, enabling users to ask questions about various laws. The application utilizes a vector database for efficient information retrieval and is built with React.js for an interactive user experience.",
+    technologies: ["Flask","Python","FAISS","Langchain","GeminiAPI","React.js", "JavaScript"],
+    repoLink: "https://github.com/Asinsayedali/Lawbook",
+  },
+  {
+    title: "AI Interviewer",
+    description: "Developed an AI interviewer application using LangChain and Deepseek R1 5B with Ollama, designed to assist users in preparing for interviews. The application leverages a vector database for efficient information retrieval of data from resume and is built with React.js for an interactive user experience.",
+    technologies: ["Flask","Python","FAISS","Langchain","Ollama","React.js", "JavaScript","Deepseek R1 5B"],
+    repoLink: "https://github.com/midnightcoder04/DeepSeek_Child_Interviewer",
+  },
+  {
     title: "AI Chat Assistant",
     description: "Developed an AI chat assistant for communities, streamlining their support systems. The assistant effectively handles user queries related to community policies and functionalities. Implemented a Retrieval-Augmented Generation (RAG) application using Pathway pipeline and OpenAI API. Additionally, the assistant offers optional Twitter API integration and utilizes Streamlit for its user-friendly interface.",
     technologies: ["OpenAI", "Pathway", "RAG", "Streamlit", "Twitter API"],
-    repoLink: "#",
+    repoLink: "https://github.com/Asinsayedali/AI-ChatAssistant",
   },
+
   {
     title: "AI Image Classifier",
     description: "Created an AI image classifier using PyTorch and FastAI to distinguish between BMW and Mercedes-Benz cars. Used a ResNet50 model and trained it on a dataset of car images to recognize these two brands.",
     technologies: ["PyTorch", "FastAI", "ResNet50", "Computer Vision"],
-    demoLink: "#",
+    demoLink: "https://huggingface.co/spaces/Asinsayed/Bmw-Clasifier",
   },
   {
     title: "Project Wiki",
     description: "Created a demo of Wikipedia using Django, allowing users to add, edit, and update content on the website.",
     technologies: ["Django", "Python", "HTML", "CSS"],
-  },
-  {
-    title: "Website for MuLearn Campus Chapter",
-    description: "Made a functional static web page for helping students to onboard and give details about mulearn campus chapter. It helped students with their onboarding process and make the initial journey easy.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    demoLink: "#",
   },
 ];
 
