@@ -10,11 +10,13 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
 const queryClient = new QueryClient();
 <SpeedInsights/>
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
+    <Analytics />
       <Toaster />
       <Sonner />
       <BrowserRouter>
