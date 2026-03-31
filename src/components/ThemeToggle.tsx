@@ -5,10 +5,9 @@ import SunMoonIcon from './icons/SunMoonIcon';
 
 const ThemeToggle = () => {
   const [theme, setTheme] = useState<'light' | 'dark'>(() => {
-    const storedTheme = localStorage.getItem('theme');
-    return (storedTheme === 'dark' || 
-      (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) 
-      ? 'dark' : 'light';
+    const stored = localStorage.getItem('theme');
+    // Default dark — portfolio is designed for dark mode
+    return stored === 'light' ? 'light' : 'dark';
   });
 
   useEffect(() => {
