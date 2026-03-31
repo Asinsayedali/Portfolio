@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Github, Link as LinkIcon } from "lucide-react";
 
 const projects = [
@@ -46,7 +46,7 @@ const container = {
   },
 };
 
-const cardVariant = {
+const cardVariant: Variants = {
   hidden: { opacity: 0, y: 40 },
   visible: {
     opacity: 1,

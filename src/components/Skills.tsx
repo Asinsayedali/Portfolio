@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import {
   Code2, Database, Server, Globe,
   Github, GitBranch, FileCode, Layers,
@@ -55,7 +55,7 @@ const skillCategories = [
   },
 ];
 
-const chipVariants = {
+const chipVariants: Variants = {
   hidden: { opacity: 0, scale: 0.8, y: 8 },
   visible: (i: number) => ({
     opacity: 1, scale: 1, y: 0,
